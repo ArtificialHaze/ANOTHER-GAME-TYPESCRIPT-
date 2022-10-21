@@ -1,0 +1,149 @@
+/* GLOBAL STYLE */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* MAIN STYLE */
+
+.App {
+  background-color: #c2c2c2;
+  padding: 16px;
+  border-width: 4px;
+  border-style: solid;
+  border-bottom-color: #999;
+  border-right-color: #999;
+  border-left-color: #fff;
+  border-top-color: #fff;
+}
+
+.Header {
+  background: #c0c0c0;
+  padding: 10px 12px;
+  border-width: 4px;
+  border-style: solid;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+  border-left-color: #7b7b7b;
+  border-top-color: #7b7b7b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Body {
+  margin-top: 16px;
+  border-width: 4px;
+  border-style: solid;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+  border-left-color: #7b7b7b;
+  border-top-color: #7b7b7b;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.NumberDisplay {
+  height: 48px;
+  width: 80px;
+  background: black;
+  color: #ff0701;
+  text-align: center;
+  font-size: 40px;
+}
+
+.Face {
+  width: 52px;
+  height: 52px;
+  font-size: 35px;
+  /* border-width: 4px; */
+  border-style: solid;
+  border-bottom-color: #7b7b7b;
+  border-right-color: #7b7b7b;
+  border-left-color: #fff;
+  border-top-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Face:active {
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+  border-left-color: #7b7b7b;
+  border-top-color: #7b7b7b;
+}
+
+.Button {
+  width: 30px;
+  height: 30px;
+  border-style: solid;
+  border-width: 4px;
+  border-bottom-color: #7b7b7b;
+  border-right-color: #7b7b7b;
+  border-left-color: #fff;
+  border-top-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.Button:active {
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+  border-left-color: #7b7b7b;
+  border-top-color: #7b7b7b;
+}
+
+.Button.visible {
+  border-color: #7b7b7b;
+  border-width: 1px;
+}
+
+.Button span {
+  margin-left: 2px;
+  font-size: 12px;
+}
+
+.Button.value-1 {
+  color: blue;
+}
+.Button.value-2 {
+  color: green;
+}
+.Button.value-3 {
+  color: red;
+}
+.Button.value-4 {
+  color: purple;
+}
+.Button.value-5 {
+  color: turquoise;
+}
+.Button.value-6 {
+  color: maroon;
+}
+.Button.value-7 {
+  color: gray;
+}
+.Button.value-8 {
+  color: black;
+}
+
+.Button.red {
+  background: red;
+}
+
+/* KEYFRAME */
+
+/* RESPONSIVE */
